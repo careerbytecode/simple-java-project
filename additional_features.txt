@@ -1,0 +1,4 @@
+login with usr
+enter password
+authenticate
+login
