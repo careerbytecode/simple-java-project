@@ -9,11 +9,24 @@ import java.io.PrintWriter;
 
 public class WorksWithHerokuServlet extends HttpServlet {
 
+    // i will comeback
+
+    public static int myMethod(int a, int b, int c) {
+        return c = a + b;
+    }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/plain");
         response.setStatus(404);
         PrintWriter writer = response.getWriter();
         writer.print("Buddy Works with Heroku");
         writer.close();
+
+        
+    }
+
+    public static void main(String[] args) {
+        int result = myMethod(2,5, 4);
+
+        System.out.println(result);
     }
 }
