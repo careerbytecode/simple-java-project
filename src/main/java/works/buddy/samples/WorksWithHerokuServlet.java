@@ -17,6 +17,6 @@ public class WorksWithHerokuServlet extends HttpServlet {
         writer.print("Buddy Works with Heroku");
         writer.close();
         /*hello addd */
-        /* hello i am pushing */
+        
     }
 }
